@@ -150,8 +150,8 @@ class Index extends React.Component {
                   <strong>Guitar Lessons</strong>
                 </h3>
                 <p>
-                  Learn to play your favorite songs and music theory
-                  fundamentals.
+                  Learn to play your favorite songs, read music, and understand
+                  music theory.
                 </p>
                 <p className="service-description">
                   <strong>Duration:</strong> 30 minutes
@@ -164,7 +164,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="/bookme" className="button">
                     Book Me
                   </Link>
                 </li>
@@ -174,14 +174,10 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <h2>Testimonials</h2>
+              <p>Kind words from my students and parents.</p>
             </header>
-            <ul className="statistics">
+            {/* <ul className="statistics">
               <li className="style1">
                 <span className="icon fa-code-fork"></span>
                 <strong>5,120</strong> Etiam
@@ -202,31 +198,29 @@ class Index extends React.Component {
                 <span className="icon fa-diamond"></span>
                 <strong>1,024</strong> Nullam
               </li>
-            </ul>
-            <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+            </ul> */}
+            <p className="testimonial">
+              "Two of our kids started coding once a week with Ms. Ross in May
+              of 2019. They have continued to code with Jennifer once a week
+              since. Ms. Ross makes learning fun! She’s introduced our kids to
+              CSS, HTML, and JavaScript. We are now so much more aware of the
+              impact of knowing how to code will affect their future; they are
+              learning a foreign language that is globally useful. Coding is
+              everywhere. We, as parents, are grateful for Ms. Ross’
+              expertise/humor/kindness while teaching our children." -Parents
             </p>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
+            <p className="testimonial">
+              "I love coding because of the funny and intelligent teacher that
+              educates me about coding! And because of the patterns and just the
+              whole way coding works!" -Student
+            </p>
+            <p className="testimonial">
+              "I like coding because it’s fun to learn how to make games that
+              are enjoyable, but complicated." -Student
+            </p>
           </section>
 
-          <section id="cta" className="main special">
+          {/* <section id="cta" className="main special">
             <header className="major">
               <h2>Congue imperdiet</h2>
               <p>
@@ -249,7 +243,7 @@ class Index extends React.Component {
                 </li>
               </ul>
             </footer>
-          </section>
+          </section> */}
         </div>
       </Layout>
     )
