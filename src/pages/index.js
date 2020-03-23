@@ -87,8 +87,11 @@ class Index extends React.Component {
                 <p>
                   If you're interested in booking a virtual coding or K-6
                   subject-area session, check out my services and book a session
-                  below. If you have questions and would like to chat, please
-                  send me an email.
+                  below. If you have questions and would like to chat, please{' '}
+                  <a href="mailto:hey@jenniferross.tech?subject=Scheduling a Zoom Session">
+                    send me an email
+                  </a>{' '}
+                  .
                 </p>
 
                 {/* <ul className="actions">
