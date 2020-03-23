@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../assets/images/2019_headshot_circle.png'
+import logo from '../assets/images/logo.svg'
 
 const Header = props => (
   <React.Fragment>
@@ -14,11 +14,10 @@ const Header = props => (
         <br />
         computer programming
       </p>
-      <Link to="/bookme" id="top-book-btn" className="button">
+      {/* <Link to="/bookme" id="top-book-btn" className="button">
         Book Me
-      </Link>
+      </Link> */}
     </header>
-
   </React.Fragment>
 )
 

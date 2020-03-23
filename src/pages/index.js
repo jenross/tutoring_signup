@@ -6,6 +6,8 @@ import pic01 from '../assets/images/pic01.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+import macbook from '../assets/images/macbook_fav.jpg'
+import headshot from '../assets/images/2019_headshot_circle.png'
 
 class Index extends React.Component {
   constructor(props) {
@@ -45,11 +47,14 @@ class Index extends React.Component {
                 </header>
                 <p>
                   I'm a teacher, writer, musician, and web developer born and
-                  raised in Lake County, Florida. As a state-certified
-                  professional eductor, I taught kindergarten, first grade, and
-                  fourth grade at Sorrento Elementary for six years. In 2016, I
-                  left the classroom and began teaching online. Since then, I've
-                  helped dozens of Chinese students learn English through{' '}
+                  raised in Lake County, Florida. I created this site
+                  to begin offering my tutoring services and guitar lessons
+                  through the online video conferencing platform Zoom. As a
+                  state-certified professional eductor, I taught kindergarten,
+                  first grade, and fourth grade at Sorrento Elementary for six
+                  years. In 2016, I left the classroom and began teaching
+                  online. Since then, I've helped dozens of Chinese students
+                  learn English through{' '}
                   <a
                     href="https://www.vipkid.com/teach"
                     target="_blank"
@@ -73,15 +78,8 @@ class Index extends React.Component {
                   full stack web developer after completing a rigorous UCF
                   continuing education program for computer programming/coding
                   in November. Now, I'm a part-time teaching assistant at UCF
-                  and have started a media company with my husband, a graphic
-                  designer. Combining my newfound love of coding with my
-                  educational expertise has been extremely rewarding. Naturally,
-                  I've started offering coding sessions as part of my tutoring
-                  services for students 7 and up. I've been working with two
-                  students (ages 9 and 11) for several months now and am amazed
-                  at what they have been able to grasp and accomplish. Being
-                  able to code opens so many doors professionally and
-                  creatively. I just wish I had started learning sooner!
+                  and have started offering coding sessions as part of my
+                  tutoring services.
                 </p>
 
                 <p>
@@ -93,17 +91,9 @@ class Index extends React.Component {
                   </a>{' '}
                   .
                 </p>
-
-                {/* <ul className="actions">
-                  <li>
-                    <Link to="/generic" className="button">
-                      Learn More
-                    </Link>
-                  </li>
-                </ul> */}
               </div>
               <span className="image">
-                <img src={pic01} alt="" />
+                <img src={headshot} alt="Jennifer Ross headshot" />
               </span>
             </div>
           </section>
@@ -121,9 +111,7 @@ class Index extends React.Component {
                 <p>
                   Learn fundamentals of computer programming by making games.
                 </p>
-                {/* <ul>
-                  <li className="service-description"><strong>Duration:</strong> 1 hour</li>
-                </ul> */}
+
                 <p className="service-description">
                   <strong>Duration:</strong> 1 hour
                 </p>
@@ -180,28 +168,7 @@ class Index extends React.Component {
               <h2>Testimonials</h2>
               <p>Kind words from my students and parents.</p>
             </header>
-            {/* <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul> */}
+
             <p className="testimonial">
               "Two of our kids started coding once a week with Ms. Ross in May
               of 2019. They have continued to code with Jennifer once a week
@@ -210,7 +177,8 @@ class Index extends React.Component {
               impact of knowing how to code will affect their future; they are
               learning a foreign language that is globally useful. Coding is
               everywhere. We, as parents, are grateful for Ms. Ross’
-              expertise/humor/kindness while teaching our children." -Parents
+              expertise/humor/kindness while teaching our children." -Parents of
+              two coding students
             </p>
             <p className="testimonial">
               "I love coding because of the funny and intelligent teacher that
@@ -222,31 +190,6 @@ class Index extends React.Component {
               are enjoyable, but complicated." -Student
             </p>
           </section>
-
-          {/* <section id="cta" className="main special">
-            <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button special">
-                    Get Started
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
-          </section> */}
         </div>
       </Layout>
     )
