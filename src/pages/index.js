@@ -41,21 +41,63 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Nice to Meet You</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  I'm a teacher, writer, musician, and web developer born and
+                  raised in Lake County, Florida. As a state-certified
+                  professional eductor, I taught kindergarten, first grade, and
+                  fourth grade at Sorrento Elementary for six years. In 2016, I
+                  left the classroom and began teaching online. Since then, I've
+                  helped dozens of Chinese students learn English through{' '}
+                  <a
+                    href="https://www.vipkid.com/teach"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    VIPKid's virtual platform
+                  </a>{' '}
+                  . I've also been providing private tutoring sessions and
+                  guitar lessons for several students locally.
                 </p>
-                <ul className="actions">
+
+                <p>
+                  Last year, while continuing to teach part-time, I became a{' '}
+                  <a
+                    href="https://credly.com/credit/23155235"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    certified
+                  </a>{' '}
+                  full stack web developer after completing a rigorous UCF
+                  continuing education program for computer programming/coding
+                  in November. Now, I'm a part-time teaching assistant at UCF
+                  and have started a media company with my husband, a graphic
+                  designer. Combining my newfound love of coding with my
+                  educational expertise has been extremely rewarding. Naturally,
+                  I've started offering coding sessions as part of my tutoring
+                  services for students 7 and up. I've been working with two
+                  students (ages 9 and 11) for several months now and am amazed
+                  at what they have been able to grasp and accomplish. Being
+                  able to code opens so many doors professionally and
+                  creatively. I just wish I had started learning sooner!
+                </p>
+
+                <p>
+                  If you're interested in booking a virtual coding or K-6
+                  subject-area session, check out my services and book a session
+                  below. If you have questions and would like to chat, please
+                  send me an email.
+                </p>
+
+                {/* <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
                       Learn More
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <span className="image">
                 <img src={pic01} alt="" />
@@ -65,31 +107,57 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Services</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <h3>
+                  <strong>Coding Sessions</strong>
+                </h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Learn fundamentals of computer programming by making games.
+                </p>
+                {/* <ul>
+                  <li className="service-description"><strong>Duration:</strong> 1 hour</li>
+                </ul> */}
+                <p className="service-description">
+                  <strong>Duration:</strong> 1 hour
+                </p>
+                <p className="service-description">
+                  <strong>Cost:</strong> $45 one student, $70 two students
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <span className="icon major style3 fa-edit"></span>
+                <h3>
+                  <strong>Tutoring</strong>
+                </h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  All K-6 subject areas, including assistance with new online
+                  curriculum.
+                </p>
+                <p className="service-description">
+                  <strong>Duration:</strong> 1 hour
+                </p>
+                <p className="service-description">
+                  <strong>Cost:</strong> $30
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <span className="icon major style5 fa-music"></span>
+                <h3>
+                  <strong>Guitar Lessons</strong>
+                </h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Learn to play your favorite songs and music theory
+                  fundamentals.
+                </p>
+                <p className="service-description">
+                  <strong>Duration:</strong> 30 minutes
+                </p>
+                <p className="service-description">
+                  <strong>Cost:</strong> $20
                 </p>
               </li>
             </ul>
@@ -97,7 +165,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
-                    Learn More
+                    Book Me
                   </Link>
                 </li>
               </ul>
