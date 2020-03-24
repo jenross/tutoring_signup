@@ -6,15 +6,14 @@ const Footer = props => (
     <section>
       <h2>Booking Policy</h2>
       <p>
-        Payment for each session must be submitted via PayPal to book. If
-        you are unable to attend a scheduled session, please reschedule or
-        cancel as soon as possible. A full refund will be issued if
-        cancellation is submitted two hours prior to the start of the scheduled
-        session. Should I need to cancel a scheduled session for any reason, I
-        will issue a refund immediately. If we encounter technical difficulties
-        and are unable to complete a session, a full or partial refund will be
-        issued depending on how long we were able to work prior to the
-        disruption. 
+        Payment for each session must be submitted via PayPal to book. If you
+        are unable to attend a scheduled session, please reschedule or cancel as
+        soon as possible. A full refund will be issued if cancellation is
+        submitted 24 hours prior to the start of the scheduled session. Should I
+        need to cancel a scheduled session for any reason, I will issue a refund
+        immediately. If we encounter technical difficulties and are unable to
+        complete a session, a full or partial refund will be issued depending on
+        how long we were able to work prior to the disruption.
       </p>
     </section>
     <section>
