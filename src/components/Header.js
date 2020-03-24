@@ -10,9 +10,8 @@ const Header = props => (
       </span>
       <h1>Jennifer Ross</h1>
       <p>
-        Virtual private tutoring for all K-6 subject areas and
-        <br />
-        computer programming
+        Virtual private tutoring for all K-6 subject areas and computer
+        programming
       </p>
       {/* <Link to="/bookme" id="top-book-btn" className="button">
         Book Me
