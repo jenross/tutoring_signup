@@ -64,9 +64,9 @@ class Index extends React.Component {
                 </p>
 
                 <p>
-                  Last year, while continuing to teach part-time, I completed a
-                  rigorous UCF continuing education program for computer
-                  programming/coding and became a{' '}
+                  Last year, while continuing to teach and tutor part time, I
+                  completed a rigorous UCF continuing education program for
+                  computer programming/coding and became a{' '}
                   <a
                     href="https://credly.com/credit/23155235"
                     target="_blank"
@@ -75,13 +75,14 @@ class Index extends React.Component {
                     certified
                   </a>{' '}
                   full stack web developer. Now, I'm a part-time teaching
-                  assistant at UCF and have started teaching students ages 7 and
-                  up to code.
+                  assistant at UCF and also tutor students ages 7 and up who
+                  want to learn to code.
                 </p>
 
                 <p>
-                  If you're interested in booking a virtual tutoring session
-                  (via{' '}
+                  As I move my daily interactions online, I'm offering my
+                  tutoring services and guitar lessons through the online video
+                  conferencing platform{' '}
                   <a
                     href="https://zoom.us/"
                     target="_blank"
@@ -89,12 +90,14 @@ class Index extends React.Component {
                   >
                     Zoom
                   </a>{' '}
-                  ), please do so below. If you have questions and would like to
-                  chat, please{' '}
+                  . It is free to download and easy to set up. If you're
+                  interested in booking a virtual tutoring session, please do so
+                  below. If you have any questions, please{' '}
                   <a href="mailto:hey@jenniferross.tech?subject=Scheduling a Zoom Session">
                     send me an email
                   </a>{' '}
-                  .
+                  . I look forward to helping and supporting everyone I can
+                  during this difficult time.
                 </p>
               </div>
               <span className="image">
@@ -114,7 +117,7 @@ class Index extends React.Component {
                   <strong>Coding Sessions</strong>
                 </h3>
                 <p>
-                  Learn fundamentals of computer programming by making games.
+                  Learn fundamentals of computer programming by making games
                 </p>
 
                 <p className="service-description">
@@ -123,10 +126,15 @@ class Index extends React.Component {
                 <p className="service-description">
                   <strong>Cost:</strong> $45
                 </p>
-                <button>Book</button>
-                {/* <p className="service-description">
-                  <strong>Book for one</strong> 
-                </p> */}
+                <button className="book-btn">
+                  <a
+                    href="https://calendly.com/rosstutoring/coding-session?month=2020-03"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book
+                  </a>
+                </button>
               </li>
               <li>
                 <span className="icon major style3 fa-edit"></span>
@@ -135,7 +143,7 @@ class Index extends React.Component {
                 </h3>
                 <p>
                   All K-6 subject areas, including assistance with new online
-                  curriculum.
+                  curriculum
                 </p>
                 <p className="service-description">
                   <strong>Duration:</strong> 1 hour
@@ -143,6 +151,15 @@ class Index extends React.Component {
                 <p className="service-description">
                   <strong>Cost:</strong> $30
                 </p>
+                <button className="book-btn">
+                  <a
+                    href="https://calendly.com/rosstutoring/tutoring-session?month=2020-03&amp;date=2020-03-26"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book
+                  </a>
+                </button>
               </li>
               <li>
                 <span className="icon major style5 fa-music"></span>
@@ -151,7 +168,7 @@ class Index extends React.Component {
                 </h3>
                 <p>
                   Learn to play your favorite songs, read music, and understand
-                  music theory.
+                  music theory
                 </p>
                 <p className="service-description">
                   <strong>Duration:</strong> 30 minutes
@@ -159,17 +176,17 @@ class Index extends React.Component {
                 <p className="service-description">
                   <strong>Cost:</strong> $20
                 </p>
+                <button className="book-btn">
+                  <a
+                    href="https://calendly.com/rosstutoring/guitar-lesson?month=2020-03"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book
+                  </a>
+                </button>
               </li>
             </ul>
-            {/* <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/bookme" className="button">
-                    Book Me
-                  </Link>
-                </li>
-              </ul>
-            </footer> */}
           </section>
 
           <section id="second" className="main special">
