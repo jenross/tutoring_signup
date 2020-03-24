@@ -47,14 +47,11 @@ class Index extends React.Component {
                 </header>
                 <p>
                   I'm a teacher, writer, musician, and web developer born and
-                  raised in Lake County, Florida. I created this site
-                  to begin offering my tutoring services and guitar lessons
-                  through the online video conferencing platform Zoom. As a
-                  state-certified professional eductor, I taught kindergarten,
-                  first grade, and fourth grade at Sorrento Elementary for six
-                  years. In 2016, I left the classroom and began teaching
-                  online. Since then, I've helped dozens of Chinese students
-                  learn English through{' '}
+                  raised in Lake County, Florida. As a state-certified
+                  professional eductor, I taught kindergarten, first grade, and
+                  fourth grade at Sorrento Elementary for six years. In 2016, I
+                  left the classroom and began teaching online. Since then, I've
+                  helped dozens of Chinese students learn English through{' '}
                   <a
                     href="https://www.vipkid.com/teach"
                     target="_blank"
@@ -67,7 +64,9 @@ class Index extends React.Component {
                 </p>
 
                 <p>
-                  Last year, while continuing to teach part-time, I became a{' '}
+                  Last year, while continuing to teach part-time, I completed a
+                  rigorous UCF continuing education program for computer
+                  programming/coding and became a{' '}
                   <a
                     href="https://credly.com/credit/23155235"
                     target="_blank"
@@ -75,17 +74,23 @@ class Index extends React.Component {
                   >
                     certified
                   </a>{' '}
-                  full stack web developer after completing a rigorous UCF
-                  continuing education program for computer programming/coding
-                  in November. Now, I'm a part-time teaching assistant at UCF
-                  and have started offering coding sessions as part of my
-                  tutoring services.
+                  full stack web developer. Now, I'm a part-time teaching
+                  assistant at UCF and have started teaching students ages 7 and
+                  up to code.
                 </p>
 
                 <p>
-                  If you're interested in booking a virtual coding or K-6
-                  subject-area session, check out my services and book a session
-                  below. If you have questions and would like to chat, please{' '}
+                  If you're interested in booking a virtual tutoring session
+                  (via{' '}
+                  <a
+                    href="https://zoom.us/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Zoom
+                  </a>{' '}
+                  ), please do so below. If you have questions and would like to
+                  chat, please{' '}
                   <a href="mailto:hey@jenniferross.tech?subject=Scheduling a Zoom Session">
                     send me an email
                   </a>{' '}
@@ -116,8 +121,12 @@ class Index extends React.Component {
                   <strong>Duration:</strong> 1 hour
                 </p>
                 <p className="service-description">
-                  <strong>Cost:</strong> $45 one student, $70 two students
+                  <strong>Cost:</strong> $45
                 </p>
+                <button>Book</button>
+                {/* <p className="service-description">
+                  <strong>Book for one</strong> 
+                </p> */}
               </li>
               <li>
                 <span className="icon major style3 fa-edit"></span>
@@ -152,7 +161,7 @@ class Index extends React.Component {
                 </p>
               </li>
             </ul>
-            <footer className="major">
+            {/* <footer className="major">
               <ul className="actions">
                 <li>
                   <Link to="/bookme" className="button">
@@ -160,13 +169,12 @@ class Index extends React.Component {
                   </Link>
                 </li>
               </ul>
-            </footer>
+            </footer> */}
           </section>
 
           <section id="second" className="main special">
             <header className="major">
               <h2>Testimonials</h2>
-              <p>Kind words from my students and parents.</p>
             </header>
 
             <p className="testimonial">
@@ -178,7 +186,7 @@ class Index extends React.Component {
               learning a foreign language that is globally useful. Coding is
               everywhere. We, as parents, are grateful for Ms. Ross’
               expertise/humor/kindness while teaching our children." -Parents of
-              two coding students
+              two students learning to code
             </p>
             <p className="testimonial">
               "I love coding because of the funny and intelligent teacher that

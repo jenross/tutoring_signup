@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../assets/images/logo.svg'
+import logo from '../assets/images/laptop.png'
 
 const Header = props => (
   <React.Fragment>
