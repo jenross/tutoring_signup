@@ -42,9 +42,9 @@ class Index extends React.Component {
           <section id="intro" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                {/* <header className="major">
                   <h2>Nice to Meet You</h2>
-                </header>
+                </header> */}
                 <p>
                   I'm a teacher, writer, musician, and web developer born and
                   raised in Lake County, Florida. As a state-certified
